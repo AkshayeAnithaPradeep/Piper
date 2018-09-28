@@ -1,0 +1,113 @@
+{
+  "buildFiles": [
+    "D:\\Project\\Piper\\jni\\Android.mk",
+    "D:\\Project\\Piper\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Project\\Piper\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Project\\Piper\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Project/Piper/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Project\\Piper\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "mp3lame-release-arm64-v8a": {
+      "buildCommand": "D:\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Project\\Piper\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Project\\Piper\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Project/Piper/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\Project\\Piper\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/Project/Piper/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libmp3lame.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "mp3lame",
+      "files": [
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\SimpleLame.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\VbrTag.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\bitstream.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\encoder.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\fft.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\gain_analysis.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\id3tag.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\lame.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\mpglib_interface.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\newmdct.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\presets.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\psymodel.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\quantize.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\quantize_pvt.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\reservoir.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\set_get.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\tables.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\takehiro.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\util.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\vbrquantize.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        },
+        {
+          "src": "D:\\Project\\Piper\\jni\\lame-3.99.5_libmp3lame\\version.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android-sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/Project/Piper/jni\" \"-DANDROID\" \"-ffast-math\" \"-I\" \"lame-3.99.5_libmp3lame\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DSTDC_HEADERS\" \"--sysroot\" \"D:/android-sdk/ndk-bundle/build//../platforms/android-21/arch-arm64\""
+        }
+      ],
+      "output": "D:\\Project\\Piper\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libmp3lame.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "D:\\android-sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

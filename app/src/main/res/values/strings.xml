@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Piper</string>
+    <string name="edit_message">Enter name</string>
+    <string name="button_send">Send</string>
+    <string name="record_button">Record</string>
+    <string name="loadingText">Recording.......</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

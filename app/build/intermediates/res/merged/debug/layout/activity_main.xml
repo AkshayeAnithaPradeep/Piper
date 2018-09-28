@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/app_name">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.5">
+
+            <FrameLayout
+                android:id="@+id/fragment_container1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fragment_container2"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.5">
+
+            <FrameLayout
+                android:id="@+id/fragment_container3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fragment_container4"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/loading_text_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="5"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.75">
+
+            <FrameLayout
+                android:id="@+id/fragment_container5"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2.25">
+
+            <FrameLayout
+                android:id="@+id/fragment_container6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
